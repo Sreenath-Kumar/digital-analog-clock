@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:700");
+
+body {
+  background-color: #121212;
+}
+
+#clock {
+  font-family: "Orbitron", sans-serif;
+  color: #66ff99;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#analog {
+  text-align: center;
+}
+#shand,
+#mhand,
+#hhand {
+  transform-origin: center;
+}
+
+#hours {
+  stroke: cyan;
+}
+
+#hhand {
+  fill: cyan;
+  stroke: purple;
+}
+
+#minutes {
+  stroke: lime;
+}
+
+#mhand {
+  fill: lime;
+  stroke: purple;
+}
+
+#seconds {
+  stroke: magenta;
+}
+
+#shand {
+  fill: magenta;
+  stroke: purple;
+}
+
+.tics {
+  stroke: purple;
+  stroke-width: 2px;
+}
+
+.dots {
+  fill: purple;
+  stroke: none;
+}
+
+text {
+  fill: cyan;
+  stroke: purple;
+  stroke-width: 0.75px;
+}
+
+text {
+  font-family: "Lobster Two", Arial;
+  font-size: 40px;
+  font-weight: 700;
+  text-anchor: middle;
+}
